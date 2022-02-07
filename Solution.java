@@ -1,3 +1,9 @@
+// 可改成三部作完，不必儲存
+// 1. 找到中點
+// 2. reverse後半段
+// 3. 後半段與前半段拼接
+
+
 class Solution {
     public void reorderList(ListNode head) {
         if(head == null || head.next == null){
