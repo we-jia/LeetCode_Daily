@@ -1,3 +1,4 @@
+// 可以改用exclusive or
 class Solution {
     public char findTheDifference(String s, String t) {
         int[] count = new int[26];
